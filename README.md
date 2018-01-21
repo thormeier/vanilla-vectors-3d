@@ -12,7 +12,7 @@ A small library with vectors, lines and planes that allows for some simple vecto
 
 Create a vector with `P(1/2/3)`:
 
-    import Vector from 'vanilla-vectors-3d'
+    import { Vector, Line, Plane } from 'vanilla-vectors-3d'
     
     const v = new Vector(1, 2, 3)
     

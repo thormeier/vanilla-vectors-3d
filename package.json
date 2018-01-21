@@ -1,0 +1,33 @@
+{
+  "name": "vanilla-vectors-3d",
+  "version": "1.0.0",
+  "description": "A library that provides vectors, lines and planes in a three-dimensional vector space",
+  "main": "lib/index.js",
+  "keywords": ["vectors", "geometry"],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "test": "mocha --require babel-core/register --colors",
+    "dev": "echo \"Error: no dev stuff specifried\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "author": "Pascal Thormeier <pascal.thormeier@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "babel": {
+    "presets": [
+      "stage-3",
+      "latest"
+    ]
+  }
+}

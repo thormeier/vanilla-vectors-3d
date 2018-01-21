@@ -1,5 +1,7 @@
 # Vanilla Vectors 3D
 
+[![Build Status](https://travis-ci.org/thormeier/vanilla-vectors-3d.svg?branch=master)](https://travis-ci.org/thormeier/vanilla-vectors-3d)
+
 A small library with vectors, lines and planes that allows for some simple vector geometry calculations. Written in plain vanilla JS, hence the name.
 
 ## Installation

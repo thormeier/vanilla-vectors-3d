@@ -93,9 +93,6 @@ describe('Vector', () => {
     v2.x.should.equal(0.7427813527082076)
     v2.y.should.equal(0.3713906763541038)
     v2.z.should.equal(0.5570860145311557)
-
-    const v3 = new Vector(1, 2, 3)
-    console.log(v3.normalize())
   })
 
   it('Should rotate around axes correctly', () => {

@@ -75,7 +75,7 @@ class Vector {
    * @return {number}
    */
   scalarProduct (b) {
-    return (this.x * b.x) - (this.y * b.y) - (this.z * b.z)
+    return (this.x * b.x) + (this.y * b.y) + (this.z * b.z)
   }
 
   /**

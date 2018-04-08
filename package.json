@@ -1,6 +1,6 @@
 {
   "name": "vanilla-vectors-3d",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A library that provides vectors, lines and planes in a three-dimensional vector space",
   "main": "lib/index.js",
   "keywords": [

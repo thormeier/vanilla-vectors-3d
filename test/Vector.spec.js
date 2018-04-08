@@ -67,7 +67,7 @@ describe('Vector', () => {
 
     const r = v1.scalarProduct(v2)
 
-    r.should.equal(-24)
+    r.should.equal(32)
   })
 
   it('Should calculate the correct length', () => {
